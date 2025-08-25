@@ -10,7 +10,7 @@
 
 **GlitchMiner** is a robust framework designed to detect glitch tokens—tokens that cause unexpected behaviors in large language models (LLMs). These anomalies can severely impact model outputs, particularly in sensitive applications such as healthcare or finance.
 
-[Read our paper](https://arxiv.org/pdf/2410.15052) for detailed insights.
+[Read original paper](https://arxiv.org/pdf/2410.15052) for detailed insights.
 
 ---
 
@@ -42,7 +42,14 @@
 
 ## 🛠️ Getting Started
 
-Install GlitchMiner with pip:
+Run modified glitchminer as standalone
+```bash
+pip install -r requirements.txt
+python miner.py
+```
+
+
+Install original GlitchMiner with pip:
 ```bash
 pip install git+https://github.com/wooozihui/GlitchMiner.git
 ```

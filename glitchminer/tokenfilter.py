@@ -1,4 +1,3 @@
-
 class TokenFilter:
     def __init__(self, model, tokenizer):
         self.tokenizer = tokenizer
